@@ -1,0 +1,58 @@
+body,
+html {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: linear-gradient(#1e3799, #6a89cc, #4a69bd);
+}
+
+/* Same CSS For ASK Query As Well */
+
+.loginFormContainer {
+  background-image: linear-gradient(#1e9989, #6accc7, #008080);
+  /* height: %; */
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.loginFormContainer input,
+label {
+  display: block;
+}
+
+.loginFormContainer label,
+button {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.loginFormContainer input {
+  outline: none;
+  padding: 3%;
+  border-radius: 5px;
+  border: #ecf0f1;
+}
+
+.loginFormContainer button {
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  width: 50%;
+  border: #ecf0f1;
+  color: white;
+  background-image: linear-gradient(#1e9989, #6accc7, #008080);
+}
+
+.loginFormContainer textarea {
+  outline: none;
+  width: 100%;
+}
+
+.loginFormContainer #image {
+  margin-left: 17%;
+}
